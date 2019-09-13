@@ -13,7 +13,7 @@ public class SplashScreen extends AppCompatActivity {
         setContentView(R.layout.activity_splash_screen);
     }
     public void onButtonClick(View v){
-        Intent myIntent = new Intent(getBaseContext(), Dashboard.class);
+        Intent myIntent = new Intent(getBaseContext(), Loginscreen.class);
         startActivity(myIntent);
     }
 }

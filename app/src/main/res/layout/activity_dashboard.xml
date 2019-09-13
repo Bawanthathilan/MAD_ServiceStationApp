@@ -38,6 +38,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="169dp"
         android:layout_marginEnd="8dp"
+        android:onClick="onButtonClick"
         android:text="@string/AddServicebtn"
         app:layout_constraintEnd_toStartOf="@+id/button9"
         app:layout_constraintStart_toStartOf="parent"
