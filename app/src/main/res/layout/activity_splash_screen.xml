@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img"
+    tools:context=".SplashScreen">
+
+    <Button
+        android:id="@+id/signup"
+        android:layout_width="196dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="396dp"
+        android:background="@drawable/btn"
+        android:text="@string/Signupbtn"
+        android:textColor="#ffff"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/bams1"
+        android:layout_width="228dp"
+        android:layout_height="83dp"
+        android:layout_marginTop="132dp"
+        android:fontFamily="sans-serif-black"
+        android:text="BAMS"
+        android:textAlignment="center"
+        android:textColor="#ffff"
+        android:textSize="60sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/bams1"
+        android:layout_width="232dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="200dp"
+        android:fontFamily="sans-serif-black"
+        android:text="SERVICE"
+        android:textAlignment="center"
+        android:textColor="#ffff"
+        android:textSize="50sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="DuplicateIds" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Vehicletext"
+        android:textColor="#ffff"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bams1" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="196dp"
+        android:layout_height="37dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/btn2"
+        android:onClick="onButtonClick"
+        android:text="@string/Loginbtn"
+        android:textColor="#ffff"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/signup"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.96" />
+
+
+</android.support.constraint.ConstraintLayout>

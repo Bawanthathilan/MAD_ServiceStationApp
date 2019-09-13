@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Service Station (Customer)</string>
+    <string name="Title">Add your services</string>
+
+
+    <string name="vehicleNo_txt">Enter your vehicle number...</string>
+    <string name="ServiceLable">" Service"</string>
+    <string name="enterName">EnterName</string>
+    <string name="VehicleText">Vehicle Type</string>
+
+
+    <string-array name="planets_array">
+        <item>Vehicle Wash</item>
+        <item>Interior and Exterior Detailing</item>
+        <item>Full Service</item>
+        <item>Hybrid services</item>
+        <item>Wheel Alignment</item>
+
+
+    </string-array>
+
+    <string-array name="EmplyeesNO">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+
+
+    </string-array>
+    <string name="Tp">Telephone No</string>
+    <string name="addServiceButton">OK</string>
+    <string name="ServiceNameLable">Service Name</string>
+    <string name="ServiceTypeLable">Service Type</string>
+    <string name="OKBUTTON">OK</string>
+    <string name="EmlpoyeeNOTextView">Amount Of Employees</string>
+    <string name="PriceText">Needed Price</string>
+    <string name="name_label">Customer Name</string>
+    <string name="vehicleNo_label">Vehicle Number</string>
+    <string name="insertTextView">Insert Successfully !!</string>
+    <string name="YourServiceTextview">Your Services</string>
+    <string name="LogInBtnSpashScreen">Login</string>
+    <string name="Signupbtn">Sign Up</string>
+    <string name="Vehicletext">The Vehicle Station Service App</string>
+    <string name="SignInbtn">Sign In</string>
+    <string name="Loginbtn">Login</string>
+    <string name="DashboardText">DASHBOARD</string>
+    <string name="AddServicebtn">Add Service</string>
+    <string name="AddItemBtn">Add Item</string>
+    <string name="Updatebtn">Edit Service</string>
+    <string name="updateServiceview">Edit Service</string>
+
+
+</resources>
