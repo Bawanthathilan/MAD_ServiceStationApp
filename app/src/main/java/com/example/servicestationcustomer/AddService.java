@@ -6,11 +6,13 @@ import android.os.Bundle;
 import android.view.View;
 
 public class AddService extends AppCompatActivity {
+    DatabaseHelper myDb;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_add_service);
+        myDb = new DatabaseHelper(this);
     }
     public void onButtonClick(View v){
         Intent myIntent = new Intent(getBaseContext(), InsertSuccessFully.class);
