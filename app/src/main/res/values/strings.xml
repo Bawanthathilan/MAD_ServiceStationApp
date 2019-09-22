@@ -9,27 +9,8 @@
     <string name="VehicleText">Vehicle Type</string>
 
 
-    <string-array name="planets_array">
-        <item>Vehicle Wash</item>
-        <item>Interior and Exterior Detailing</item>
-        <item>Full Service</item>
-        <item>Hybrid services</item>
-        <item>Wheel Alignment</item>
-
-
-    </string-array>
-
-    <string-array name="EmplyeesNO">
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-        <item>4</item>
-        <item>5</item>
-        <item>6</item>
-
-
-    </string-array>
     <string name="Tp">Telephone No</string>
+
     <string name="addServiceButton">OK</string>
     <string name="ServiceNameLable">Service Name</string>
     <string name="ServiceTypeLable">Service Type</string>
@@ -50,6 +31,29 @@
     <string name="AddItemBtn">Add Item</string>
     <string name="Updatebtn">Edit Service</string>
     <string name="updateServiceview">Edit Service</string>
+    <string-array name="planets_array">
+        <item>Vehicle Wash</item>
+        <item>Interior and Exterior Detailing</item>
+        <item>Full Service</item>
+        <item>Hybrid services</item>
+        <item>Wheel Alignment</item>
+
+
+    </string-array>
+    <string-array name="EmplyeesNO">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+
+
+    </string-array>
+    <string name="viewbtn">View All</string>
+    <string name="upbtn">Update</string>
+    <string name="dltbtn">Delete</string>
+    <string name="id">ID</string>
 
 
 </resources>
