@@ -16,11 +16,16 @@ public class Dashboard extends AppCompatActivity {
         getSupportActionBar().hide(); // hide the title bar
         this.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
                 WindowManager.LayoutParams.FLAG_FULLSCREEN); //enable full screen
-        setContentView(R.layout.activity_main);
+
         setContentView(R.layout.activity_dashboard);
     }
     public void onButtonClick(View v){
         Intent myIntent = new Intent(getBaseContext(), AddServiceLayout.class);
+        startActivity(myIntent);
+    }
+
+    public void onselectServiceButtonClick(View v){
+        Intent myIntent = new Intent(getBaseContext(), addCutomerServices.class);
         startActivity(myIntent);
     }
 }

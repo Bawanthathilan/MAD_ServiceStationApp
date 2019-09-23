@@ -31,6 +31,33 @@
     <string name="AddItemBtn">" Add Item"</string>
     <string name="Updatebtn">Edit Service</string>
     <string name="updateServiceview">Edit Service</string>
+    <string name="viewbtn">View All</string>
+    <string name="upbtn">Update</string>
+    <string name="dltbtn">Delete</string>
+    <string name="id">ID</string>
+    <string name="Addcustomer">" Customer"</string>
+    <string name="name_txt" translatable="false">Enter your name</string>
+    <string name="mobile_label">Mobile Number</string>
+
+
+    <string name="mobile_txt">Enter your Mobile Number</string>
+    <string name="add_service_title">Update Your Services</string>
+    <string name="after_service_cust_title">Add your service</string>
+    <string name="confirm_btn">ADD</string>
+    <string name="payment_label">payment</string>
+    <string name="service">Add your Service</string>
+    <string name="update">UPDATE</string>
+
+    <string name="update_progress_btn">CHANGE</string>
+    <string name="select_service">Select your service</string>
+    <string name="service_successful">Your service request was successful !!!!</string>
+
+    <string name="update_service_title">Update your services</string>
+    <string name="buttonadd">CONFIRM</string>
+    <string name="view_btn">VIEW</string>
+    <string name="id_label">ID</string>
+    <string name="btn_delete">DELETE</string>
+    <string name="select_services">SELECT SERVICE</string>
     <string-array name="planets_array">
         <item>Vehicle Wash</item>
         <item>Interior and Exterior Detailing</item>
@@ -50,11 +77,6 @@
 
 
     </string-array>
-    <string name="viewbtn">View All</string>
-    <string name="upbtn">Update</string>
-    <string name="dltbtn">Delete</string>
-    <string name="id">ID</string>
-    <string name="Addcustomer">" Customer"</string>
 
 
 </resources>

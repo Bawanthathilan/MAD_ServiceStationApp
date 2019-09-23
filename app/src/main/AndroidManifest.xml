@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".AddServiceLayout"></activity>
+        <activity android:name=".main"></activity>
+        <activity android:name=".updateDelete" />
+        <activity android:name=".addCutomerServices" />
+        <activity android:name=".AddServiceLayout" />
         <activity android:name=".Loginscreen" />
         <activity android:name=".updateservice" />
         <activity android:name=".Dashboard" />
