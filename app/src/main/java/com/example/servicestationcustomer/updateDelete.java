@@ -52,7 +52,7 @@ public class updateDelete extends AppCompatActivity {
                         if(deleteRows>0)
                             Toast.makeText(updateDelete.this,"Data Deleted",Toast.LENGTH_LONG).show();
                         else
-                            Toast.makeText(updateDelete.this,"Data not Deleted",Toast.LENGTH_LONG).show();
+                            Toast.makeText(updateDelete.this,"Please insert a valid ID",Toast.LENGTH_LONG).show();
                     }
                 }
         );
@@ -61,6 +61,26 @@ public class updateDelete extends AppCompatActivity {
         btnViewUpdate.setOnClickListener(
                 new View.OnClickListener(){
                     public void onClick(View v){
+                        String sID = editTextId.getText().toString();
+                        if (sID.matches("")) {
+                            Toast.makeText(updateDelete.this, "Please insert a valid ID", Toast.LENGTH_SHORT).show();
+                            return;}
+                        String sUsername = editcustomerName.getText().toString();
+                        if (sUsername.matches("")) {
+                            Toast.makeText(updateDelete.this, "You did not enter a username", Toast.LENGTH_SHORT).show();
+                            return;}
+                        String sVehicleNumber = editvehicleNumber.getText().toString();
+                        if (sUsername.matches("")) {
+                            Toast.makeText(updateDelete.this, "You did not enter vehcile Number", Toast.LENGTH_SHORT).show();
+                            return;}
+                        String sMobileNumber = editmobile.getText().toString();
+                        if (sUsername.matches("")) {
+                            Toast.makeText(updateDelete.this, "You did not enter a mobile", Toast.LENGTH_SHORT).show();
+                            return;}
+                        String sService = editService.getText().toString();
+                        if (sUsername.matches("")) {
+                            Toast.makeText(updateDelete.this, "You did not enter service", Toast.LENGTH_SHORT).show();
+                            return;}
                         boolean isUpdate = myDb.updateData(editTextId.getText().toString(), editcustomerName.getText().toString(),
                                 editvehicleNumber.getText().toString(),
                                 editmobile.getText().toString  (),
@@ -96,7 +116,7 @@ public class updateDelete extends AppCompatActivity {
                             buffer.append("needprice :" + res.getString(4) + "\n");
                         }
                         //getalldata
-                        showMessage("Services", buffer.toString());
+                        showMessage("Customer Services", buffer.toString());
                     }
 
                 }
