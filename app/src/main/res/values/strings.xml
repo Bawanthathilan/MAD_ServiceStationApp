@@ -27,8 +27,8 @@
     <string name="SignInbtn">Sign In</string>
     <string name="Loginbtn">Login</string>
     <string name="DashboardText">DASHBOARD</string>
-    <string name="AddServicebtn">Add Service</string>
-    <string name="AddItemBtn">Add Item</string>
+    <string name="AddServicebtn">" Service"</string>
+    <string name="AddItemBtn">" Add Item"</string>
     <string name="Updatebtn">Edit Service</string>
     <string name="updateServiceview">Edit Service</string>
     <string-array name="planets_array">
@@ -54,6 +54,7 @@
     <string name="upbtn">Update</string>
     <string name="dltbtn">Delete</string>
     <string name="id">ID</string>
+    <string name="Addcustomer">" Customer"</string>
 
 
 </resources>
