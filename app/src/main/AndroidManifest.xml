@@ -15,7 +15,6 @@
         <activity android:name=".Dashboard" />
         <activity android:name=".MainActivity" />
         <activity android:name=".InsertSuccessFully" />
-        <activity android:name=".AddService" />
         <activity android:name=".SplashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
