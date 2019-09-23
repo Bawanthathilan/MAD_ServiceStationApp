@@ -62,6 +62,23 @@ public class addCutomerServices extends AppCompatActivity {
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
+                        
+                        String sUsername = editcustomerName.getText().toString();
+                        if (sUsername.matches("")) {
+                            Toast.makeText(MainActivity.this, "Please enter a username", Toast.LENGTH_SHORT).show();
+                            return;}
+                        String sVehicleNumber = editvehicleNumber.getText().toString();
+                        if (sUsername.matches("")) {
+                            Toast.makeText(MainActivity.this, "Please enter vehicle Number", Toast.LENGTH_SHORT).show();
+                            return;}
+                        String sMobileNumber = editmobile.getText().toString();
+                        if (sUsername.matches("")) {
+                            Toast.makeText(MainActivity.this, "Please enter a mobile", Toast.LENGTH_SHORT).show();
+                            return;}
+                        String sService = editService.getText().toString();
+                        if (sUsername.matches("")) {
+                            Toast.makeText(MainActivity.this, "Please enter a service", Toast.LENGTH_SHORT).show();
+                            return;}
 
                         boolean isInserted = myDb.insertData(editcustomerName.getText().toString(),
                                 editvehicleNumber.getText().toString(),
@@ -91,11 +108,11 @@ public class addCutomerServices extends AppCompatActivity {
                             buffer.append("ID :" + res.getString(0)+"\n");
                             buffer.append("Customer Name :" + res.getString(1)+"\n");
                             buffer.append("Vehicle Number :" + res.getString(2)+"\n");
-                            buffer.append("amountofemp :" + res.getString(3)+"\n");
-                            buffer.append("needprice :" + res.getString(4)+"\n");
+                            buffer.append("Mobile Number :" + res.getString(3)+"\n");
+                            buffer.append("Service :" + res.getString(4)+"\n");
                         }
                         //getalldata
-                        showMessage("Services" , buffer.toString());
+                        showMessage("Customer Services" , buffer.toString());
                     }
 
                 }
