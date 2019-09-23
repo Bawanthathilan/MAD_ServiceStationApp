@@ -112,8 +112,8 @@ public class updateDelete extends AppCompatActivity {
                             buffer.append("ID :" + res.getString(0) + "\n");
                             buffer.append("Customer Name :" + res.getString(1) + "\n");
                             buffer.append("Vehicle Number :" + res.getString(2) + "\n");
-                            buffer.append("amountofemp :" + res.getString(3) + "\n");
-                            buffer.append("needprice :" + res.getString(4) + "\n");
+                            buffer.append("Mobile Number :" + res.getString(3) + "\n");
+                            buffer.append("Service :" + res.getString(4) + "\n");
                         }
                         //getalldata
                         showMessage("Customer Services", buffer.toString());
