@@ -18,6 +18,7 @@ public class AddServiceLayout extends AppCompatActivity {
     Button btnViewAll;
     Button btnViewUpdate;
     Button btnDelete;
+    Button btnDeleteall;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
